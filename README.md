@@ -48,15 +48,28 @@
 SQL запросы 2210
 
 SELECT ('столбцы или * для выбора всех столбцов; обязательно')
+
 FROM ('таблица; обязательно')
+
 WHERE ('условие/фильтрация, например, city = 'Moscow'; необязательно')
+
 GROUP BY ('столбец, по которому хотим сгруппировать данные; необязательно')
+
 HAVING ('условие/фильтрация на уровне сгруппированных данных; необязательно') 
+
 ORDER BY ('столбец, по которому хотим отсортировать вывод; необязательно')
 
-SELECT ('столбцы или * для выбора всех столбцов; обязательно')
-FROM ('таблица; обязательно')
-WHERE ('условие/фильтрация, например, city = 'Moscow'; необязательно')
-GROUP BY ('столбец, по которому хотим сгруппировать данные; необязательно')
-HAVING ('условие/фильтрация на уровне сгруппированных данных; необязательно') 
-ORDER BY ('столбец, по которому хотим отсортировать вывод; необязательно')
+SELECT * FROM INFORMATION_SCHEMA.TABLES
+
+SELECT COUNT(*) AS TABLE_COUNT FROM INFORMATION_SCHEMA.TABLES
+
+SELECT COUNT(*) AS TABLE_COUNT FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '..._lyc'
+
+SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES
+
+SELECT *FROM grades
+
+SELECT *FROM users
+
+SELECT * FROM grades JOIN users ON grades.users_id = users.user_id
+
