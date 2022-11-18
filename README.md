@@ -73,3 +73,5 @@ SELECT *FROM users
 
 SELECT * FROM grades JOIN users ON grades.users_id = users.user_id
 
+Таблица по подготовке к егэ
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPCEY30U=/?moveToViewport=-793,-424,1484,881&embedId=449662198813" frameborder="0" scrolling="no" allowfullscreen></iframe>
