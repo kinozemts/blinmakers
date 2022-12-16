@@ -1,3 +1,4 @@
+![ny01_963](https://user-images.githubusercontent.com/114549805/206494406-12c6df1f-28d7-4469-b92e-c3b9966bac5c.jpg)
 <div class="nav">
 <div>
 <a href="https://portal.tpu.ru/lyceum"><img src="logo.jpg"></a>
